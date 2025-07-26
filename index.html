@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>دليلك الأول لبناء صفحة ويب | DarkUI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #4169e1;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #2e8b57;
+            font-size: 2.2em;
+        }
+        header p {
+            color: #555;
+            margin-top: 10px;
+        }
+        .author {
+            color: #4169e1;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        section {
+            margin-bottom: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #4169e1;
+            margin-bottom: 15px;
+            border-right: 5px solid #4169e1;
+            padding-right: 10px;
+        }
+        pre {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            direction: ltr;
+            text-align: left;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+        }
+        .cta {
+            background: #2e8b57;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 30px 0;
+            font-weight: bold;
+        }
+        .cta a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>دليلك الأول لبناء صفحة ويب</h1>
+        <p>HTML + CSS للمبتدئين – من الصفر إلى أول موقع</p>
+        <div class="author">من إعداد: DarkUI</div>
+    </header>
+
+    <section>
+        <h2>1. ما هو HTML؟</h2>
+        <p>HTML (لغة ترميز النصوص التشعبية) هي الهيكل الأساسي لأي موقع ويب. تُستخدم لتحديد العناصر مثل: العناوين، الفقرات، والصور.</p>
+        <pre><!DOCTYPE html>
+<html>
+<head>
+    <title>صفحتي الأولى</title>
+</head>
+<body>
+    <h1>مرحباً في عالم الويب!</h1>
+    <p>هذه أول فقرة لي في صفحة ويب.</p>
+</body>
+</html></pre>
+    </section>
+
+    <section>
+        <h2>2. ما هو CSS؟</h2>
+        <p>CSS هو ما يجعل صفحتك جميلة! يُستخدم لتغيير الألوان، الخطوط، والتنسيق.</p>
+        <pre>body {
+    font-family: Arial;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+h1 {
+    color: #4169e1;
+}</pre>
+    </section>
+
+    <section>
+        <h2>3. مشروع عملي: أول صفحة ويب</h2>
+        <p>فيما يلي كود كامل لتجربته:</p>
+        <pre><!DOCTYPE html>
+<html>
+<head>
+    <title>صفحتي الأولى</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 60px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>أهلاً بك في صفحتي!</h1>
+    <p>أنا أتعلم تطوير الويب من الصفر 🎉</p>
+</body>
+</html></pre>
+    </section>
+
+    <section>
+        <h2>4. كيف تجرب هذا الكود؟</h2>
+        <ol>
+            <li>افتح "المفكرة"</li>
+            <li>الصق الكود</li>
+            <li>احفظه باسم: <code>my-first-website.html</code></li>
+            <li>افتح الملف بالمستعرض</li>
+        </ol>
+    </section>
+
+    <div class="cta">
+        تابع @DarkUI لمزيد من الأدلة المجانية.<br>
+        <a href="#">سجّل في القائمة البريدية</a> لتحصل على دروس أسبوعية.
+    </div>
+
+    <footer>
+        &copy; 2025 DarkUI – كل الحقوق محفوظة
+    </footer>
+
+</body>
+</html>
